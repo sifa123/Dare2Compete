@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="footer, address, phone, icons" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+ 
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+  <style>
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: right;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sifa {
+  overflow: hidden;
+  background-color: white;
+ 
+}
+
+.sifa a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.bro {
+  float: left;
+  overflow: hidden;
+}
+
+.bro .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.sifa a:hover,
+ .bro:hover .dropbtn {
+  background-color: violet;
+}
+.bro-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.bro-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.bro-content a:hover {
+  background-color: #ddd;
+}
+
+.bro:hover .bro-content {
+  display: block;
+}
+
+
+
+.d {
+  float: left;
+  overflow: hidden;
+}
+
+.d .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.sifa a:hover,
+ .d:hover .dropbtn {
+  background-color: violet;
+}
+.d-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.d-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.d-content a:hover {
+  background-color: #ddd;
+}
+
+.d:hover .d-content {
+  display: block;
+}
+
+.Services {
+  float: left;
+  overflow: hidden;
+}
+
+.Services .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.sifa a:hover,
+ .Services:hover .dropbtn {
+  background-color: violet;
+}
+.Services-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.Services-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.Services-content a:hover {
+  background-color: #ddd;
+}
+
+.Services:hover .Services-content {
+  display: block;
+}
+
+
+
+
+
+
+.navbar {
+margin:20px;
+  width: 100%;
+  background-color: gray;
+  overflow: auto;
+}
+
+.navbar a {
+float:left;
+
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 30%;
+    margin: auto;
+  }
+  
+</style>
+
+
+</head>
+<body>
+<div class="topnav">
+
+
+  
+<div style="padding-left:16px">
+  
+</div>
+
+
+<div class="search-container">
+    <form action="/action_page.php">
+     
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+
+
+
+    <ul class="nav navbar-nav navbar-right">
+    
+
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+      <li><a href="follow.html" style="right: 15px;font-size: 25px;color: black"><span class="glyphicon glyphicon-log-in"></span></a></li>
+    </ul>
+
+ 
+
+  <div class="sifa" style="font-size: 15px;">
+  <a href=""><img src="dare.jpg" style="height: 70px;width: 70px;"></a>
+
+
+  
+
+<div class="bro" style="padding: 10px;">
+    <button class="dropbtn">Browse Opportunities
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="bro-content">
+      
+ 
+      <a href="">Quiz</a>
+      <a href="">Campus</a>
+       <a href="">Scholarship</a>
+    </div>
+  </div> 
+
+  <div class="d"  style="padding: 10px;">
+    <button class="dropbtn">D2c Diaries 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="d-content">
+      
+    
+   
+  
+      <a href="">Career Life</a>
+         <a href="">Campus Stories</a>
+            <a href="">Knowledge Bites</a>
+        
+      
+
+   
+    
+   
+      <a href="">Competition</a>
+         <a href="">Internship Stories</a>
+         
+        
+      
+    </div>
+  </div>
+
+
+<div class="Services"  style="padding: 10px;">
+    <button class="dropbtn">Our Services
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="Services-content">
+      <a href="">Employeer Branding</a>
+     
+      <a href="">Advertisement</a>
+
+     
+          </div>
+        </div>
+      </div>
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><img src="com.jpg"style="height: 25px;width: 20px;">Competition</a> 
+  <a href="#"><img src="education-icon-png-white-7.jpg" style="height: 25px;width: 20px;"> Education</a> 
+  <a href="#"><img src="quiz.jpg" style="height: 25px;width: 20px;"> Quiz</a>
+   <a href="#"><img src="job.jpg" style="height: 25px;width: 20px;"> Jobs&Internships</a>
+    <a href="#"><img src="articlejpg.jpg" style="height: 25px;width: 20px;"> Articles</a>
+</div>
+
+
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+   
+    </ol>
+​
+ 
+    <div class="carousel-inner" role="listbox">
+​
+      <div class="item active">
+        <img src="download 1.jpg" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+
+          <h3 style="color: #800080"> Online Resume Building Workshop </h3>
+          <a href="" style="color: #800080;"><h4>#Business #Business Plan</h4></a>
+           <a href="" style="color: #800080;"><h4>#Case Study #Entrepreneurship.</h4></a>
+        </div>
+      </div>
+​
+      <div class="item">
+        <img src="download.jpg" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h3 style="color: red">Sussex MBA Scholarships 2020</h3>
+          <a href="" style="color: red;"><h4>#Business #Business Plan</h4></a>
+           <a href="" style="color: red;"><h4> #Case Study #Entrepreneurship.</h4></a>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="images.jpg" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3 style="color: #800080;">WordPress Developer</h3>
+        <a href="" style="color: #800080;"><h4>#Business #Business Plan</h4></a>
+           <a href="" style="color: #800080;"><h4> #Case Study #Entrepreneurship.</h4></a>
+        </div>
+      </div>
+​
+     
+  
+    </div>
+​
+ 
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<div style=" height:110px;border: 10px solid green; float:right; width:500px;top: 70px;margin: 25px;">
+
+
+<a href=""><p style="color:red;font-size: 20px;padding: 30px;color: black">#Rewards</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="follow.html">#Follow</a></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+</div>
+
+
+<div style="height:160px;border: 10px solid green; float:left; width:900px;top: 70px;margin: 7px;">
+<img src="UPES_Logo.jpg" alt="upes" style="width:13%;">
+<a href=""><h2 style=" float: left;padding: 50px;bottom: -10%; left: 110px; position: absolute;font-size: 25px;color: black;">University of Petroleum & Energy Studies (UPES), Dehradun</h2></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="font-size: 15px;padding-bottom: 60px;right:20px; color: black;">Exclusive Scholarship for All Girl Students</a>
+<a href=""><p style="color:red;">&nbsp;#Arts & Science &nbsp;#Fellowships &nbsp;#Scholarship&nbsp; #School Students&nbsp;</p> </a>
+
+</div>
+
+
+
+
+
+<div style=" height:110px;border: 10px solid green; float:right; width:500px;top: 70px;margin: 30px;">
+
+
+<a href=""><p style="color:red;font-size: 20px;padding: 30px;color: black">#Rewards</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="follow.html">#Follow</a></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+</div>
+
+
+<div style="height:160px;border: 10px solid green; float:left; width:900px;top: 50px;margin: 5px;">
+<img src="logo-on-front.jpg" alt="upes" style="width:16%;">
+
+<a href=""><h2 style=" float: left;padding: 42px;bottom: -31%; left: 140px; position: absolute;font-size: 25px;color: black;">Swami Dayanand Education Foundation</h2></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="font-size: 15px;padding-bottom: 40px;right:20px; color: black;">School Scholarship Program (For Delhi/NCR)</a>
+
+<a href=""><p style="color:red;">&nbsp;#Arts & Science &nbsp;#Fellowships &nbsp;#Scholarship&nbsp; #School Students&nbsp;</p> </a>
+
+</div>
+
+
+
+
+
+<div style=" height:110px;border: 10px solid green; float:right; width:500px;top: 70px;margin: 40px;">
+
+
+<a href=""><p style="color:red;font-size: 20px;padding: 30px;color: black">#Rewards</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="follow.html">#Follow</a></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+</div>
+
+
+<div style="height:160px;border: 10px solid green; float:left; width:900px;top: 70px;margin: 5px;">
+<img src="download.jpg" alt="upes" style="width:13%;">
+<a href=""><h2 style=" float: left;padding: 50px;bottom: -58%; left: 100px; position: absolute;font-size: 25px;color: black;">University Of Sussex</h2></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="font-size: 15px;padding-bottom: 40px;right:10px; color: black;">Sussex MBA Scholarships 2020</a>
+<a href=""><p style="color:red;">&nbsp;#Arts & Science &nbsp;#Fellowships &nbsp;#Scholarship&nbsp; #School Students&nbsp;</p> </a>
+
+</div>
+
+
+
+
+
+
+<div style=" height:110px;border: 10px solid green; float:right; width:500px;top: 70px;margin: 30px;">
+
+
+<a href=""><p style="color:red;font-size: 20px;padding: 30px;color: black">#Rewards</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="follow.html">#Follow</a></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+</div>
+
+
+<div style="height:160px;border: 10px solid green; float:left; width:900px;top: 70px;margin: 5px;">
+<img src="pstu_web.jpg" alt="upes" style="width:18%;">
+<a href=""><h2 style=" float: left;padding: 50px;bottom: -80%; left: 120px; position: absolute;font-size: 25px;color: black;">Patuakhali Science and Technology University</h2></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="font-size: 15px;padding-bottom: 40px;right:15px; color: black;">Patuakhali MBA Scholarships 2020</a>
+<a href=""><p style="color:red;">&nbsp;#Arts & Science &nbsp;#Fellowships &nbsp;#Scholarship&nbsp; #School Students&nbsp;</p> </a>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
